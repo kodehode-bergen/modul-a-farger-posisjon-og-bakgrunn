@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #32b620; */
+  background-image: conic-gradient(red, yellow, green, blue, purple, red);
+  height: 100svh;
+  width: 100svw;
+}
+header {
+  height: 100px;
+  width: 100svw;
+  background-color: hsl(313, 85%, 50%);
+}
+section {
+  height: 25%;
+  width: 25%;
+  background-color: rgb(178, 59, 29);
+}
+.rgba {
+  margin-top: 30px;
+  height: 4em;
+  width: 4em;
+  background-color: rgba(250, 91, 23, 0.596);
+}
+.hsl {
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: hsl(96, 100%, 50%);
+}
